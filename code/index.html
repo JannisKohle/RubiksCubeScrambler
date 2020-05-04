@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        <title>Rubiks Cube Scrambler</title>
+    </head>
+    <body>
+        <script type="text/javascript" src="main.js"></script>
+
+        <script type="text/javascript">
+            var paragraph = document.createElement("P");
+            paragraph.classList.add("scramble")
+            paragraph.innerText = get_scramble();
+            document.body.appendChild(paragraph);
+        </script>
+
+        <input class="gen_button" type="button" value="NEW SCRAMBLE" onclick="generate()">
+    </body>
+</html>

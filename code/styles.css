@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(0, 180, 180);
+}
+
+.scramble {
+    font-size: 36px;
+    font-family: monospace;
+}
+
+.gen_button {
+    width: 450px;
+    height: 100px;
+    background-color: rgb(0, 255, 0);
+    border-radius: 10px;
+    border-width: thick;
+    border-color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
