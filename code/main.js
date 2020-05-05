@@ -12,6 +12,7 @@ function createWindow () {
     }
   })
 
+
   // and load the index.html of the app.
   win.loadFile('index.html')
 }
@@ -21,6 +22,7 @@ app.whenReady().then(createWindow)
 
 function generate() {
     exec("python3 backend.py")
+    mainWindow.reload()
 }
 
 function get_scramble () {
