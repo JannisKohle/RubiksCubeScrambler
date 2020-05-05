@@ -22,7 +22,6 @@ app.whenReady().then(createWindow)
 
 function generate() {
     exec("python3 backend.py")
-    mainWindow.reload()
 }
 
 function get_scramble () {
