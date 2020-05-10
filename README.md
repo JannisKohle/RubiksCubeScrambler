@@ -16,6 +16,7 @@ Every time you generate a new scramble in the App, the program adds
 the new scramble to a list of all your scrambles. Before the program shows
 you the new scramble it generated, it first looks for duplicates in the list.
 After that, you have to reload the window with ```Command-R``` to see the new scramble.
+I will probably change it so that you don't have to reload the App yourself.
 
 (The probability that there's a duplicate is very low, so you might want to
 change that in ```code/backend.py``` because if you use the App a lot, it
