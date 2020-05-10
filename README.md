@@ -5,7 +5,7 @@
 ## How to use it:
 
 1. Clone this Repository
-2. Make sure to have Python 3 and NodeJS/npm installed
+2. Make sure you have Python 3 and NodeJS/npm installed
 3. To run the App, first (only once!) you have to do
 ```npm install --save-dev electron``` in the command line.
 4. To open the App, execute ```run.py``` (with python3 !!!)
